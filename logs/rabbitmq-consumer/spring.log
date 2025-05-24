@@ -1,0 +1,984 @@
+2025-05-24T18:30:54.161Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T18:30:54.183Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T18:30:57.500Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T18:30:57.520Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T18:30:57.522Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T18:30:57.565Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T18:30:57.566Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3258 ms
+2025-05-24T18:30:58.523Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T18:30:58.548Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 5.889 seconds (process running for 6.738)
+2025-05-24T18:40:33.276Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T18:40:33.286Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T18:59:33.534Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T18:59:33.536Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T18:59:34.690Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T18:59:34.705Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T18:59:34.706Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T18:59:34.741Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T18:59:34.742Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1148 ms
+2025-05-24T18:59:35.396Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T18:59:35.412Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 2.479 seconds (process running for 3.003)
+2025-05-24T19:11:05.637Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:11:05.655Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:13:04.753Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T19:13:04.760Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:13:07.323Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:13:07.346Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:13:07.347Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:13:07.398Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:13:07.400Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2457 ms
+2025-05-24T19:13:09.568Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T19:13:09.614Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 6.325 seconds (process running for 7.037)
+2025-05-24T19:23:10.707Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:23:10.720Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:24:22.690Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T19:24:22.700Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:24:24.747Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:24:24.762Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:24:24.763Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:24:24.799Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:24:24.800Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1938 ms
+2025-05-24T19:24:25.763Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T19:24:25.788Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 4.33 seconds (process running for 5.274)
+2025-05-24T19:26:30.851Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:26:30.860Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:27:29.392Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T19:27:29.397Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:27:30.876Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:27:30.893Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:27:30.894Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:27:30.938Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:27:30.939Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1456 ms
+2025-05-24T19:27:32.267Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T19:27:32.305Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 3.723 seconds (process running for 4.474)
+2025-05-24T19:34:46.947Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:34:46.966Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:35:58.552Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T19:35:58.557Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:36:00.165Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:36:00.184Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:36:00.185Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:36:00.226Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:36:00.227Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1580 ms
+2025-05-24T19:36:01.789Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T19:36:01.823Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 4.161 seconds (process running for 5.034)
+2025-05-24T20:02:54.086Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:02:54.096Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:20:54.747Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T20:20:54.758Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:20:56.772Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T20:20:56.794Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:20:56.795Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:20:56.845Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:20:56.847Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1964 ms
+2025-05-24T20:20:58.302Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T20:20:58.355Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 4.764 seconds (process running for 5.595)
+2025-05-24T20:23:24.663Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:23:24.672Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:25:09.303Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T20:25:09.307Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:25:10.681Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T20:25:10.701Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:25:10.703Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:25:10.742Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:25:10.743Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1353 ms
+2025-05-24T20:25:11.652Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T20:25:11.677Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 3.147 seconds (process running for 3.682)
+2025-05-24T20:25:40.701Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:25:40.707Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:56:55.597Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T20:56:55.605Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:56:57.845Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T20:56:57.866Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:56:57.867Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:56:57.939Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:56:57.940Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2207 ms
+2025-05-24T20:56:59.510Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T20:56:59.542Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 5.208 seconds (process running for 6.063)
+2025-05-24T21:00:04.994Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:00:05.005Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:01:05.973Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:01:05.978Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:01:07.340Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:01:07.379Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:01:07.380Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:01:07.421Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:01:07.422Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2025-05-24T21:01:08.329Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T21:01:08.360Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 3.233 seconds (process running for 3.789)
+2025-05-24T21:08:21.246Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:08:21.266Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:12:03.873Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:03.877Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:05.424Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:05.444Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:05.445Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:05.501Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:05.502Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1545 ms
+2025-05-24T21:12:05.622Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:05.626Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:05.648Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:05.691Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:07.790Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:07.793Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:08.829Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:08.840Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:08.840Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:08.865Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:08.866Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1019 ms
+2025-05-24T21:12:08.926Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:08.928Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:08.941Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:08.964Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:10.578Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:10.581Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:11.680Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:11.697Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:11.698Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:11.733Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:11.734Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1101 ms
+2025-05-24T21:12:11.800Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:11.803Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:11.818Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:11.845Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:13.652Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:13.655Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:15.117Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:15.131Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:15.131Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:15.164Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:15.165Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1454 ms
+2025-05-24T21:12:15.231Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:15.235Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:15.250Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:15.278Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:17.645Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:17.649Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:18.653Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:18.668Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:18.668Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:18.699Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:18.700Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 976 ms
+2025-05-24T21:12:18.763Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:18.766Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:18.779Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:18.807Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:21.750Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:21.754Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:22.899Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:22.914Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:22.914Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:22.945Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:22.946Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1131 ms
+2025-05-24T21:12:23.007Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:23.010Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:23.023Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:23.045Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:30.276Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:30.279Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:31.264Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:31.276Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:31.277Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:31.303Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:31.304Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 971 ms
+2025-05-24T21:12:31.366Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:31.369Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:31.383Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:31.408Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:39.123Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:39.127Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:40.084Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:40.100Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:40.101Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:40.130Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:40.130Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2025-05-24T21:12:40.193Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:40.196Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:40.211Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:40.227Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:12:54.981Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:12:54.984Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:56.012Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:12:56.025Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:56.026Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:56.055Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:56.056Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1021 ms
+2025-05-24T21:12:56.131Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:12:56.136Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:12:56.161Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:12:56.200Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:13:25.756Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:13:25.759Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:13:26.727Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:13:26.738Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:13:26.739Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:13:26.764Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:13:26.765Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 955 ms
+2025-05-24T21:13:26.837Z  WARN 1 --- [rabbitmq-consumer] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+2025-05-24T21:13:26.841Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-24T21:13:26.856Z  INFO 1 --- [rabbitmq-consumer] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-24T21:13:26.884Z ERROR 1 --- [rabbitmq-consumer] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitMessageConsumer' defined in URL [jar:nested:/app/rabbitmq-consumer.jar/!BOOT-INF/classes/!/ubb/dissertation/rabbitmq_consumer/consumer/RabbitMessageConsumer.class]: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:614) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.4.6.jar!/:3.4.6]
+	at ubb.dissertation.rabbitmq_consumer.RabbitmqConsumerApplication.main(RabbitmqConsumerApplication.java:10) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40) ~[rabbitmq-consumer.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'rabbitmq.queue' in value "${rabbitmq.queue}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:423) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:128) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:118) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:185) ~[spring-context-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:971) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolve(RabbitListenerAnnotationBeanPostProcessor.java:980) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveExpression(RabbitListenerAnnotationBeanPostProcessor.java:967) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:699) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.resolveQueues(RabbitListenerAnnotationBeanPostProcessor.java:663) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processListener(RabbitListenerAnnotationBeanPostProcessor.java:434) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.processAmqpListener(RabbitListenerAnnotationBeanPostProcessor.java:392) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(RabbitListenerAnnotationBeanPostProcessor.java:310) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:445) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1829) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.7.jar!/:6.2.7]
+	... 24 common frames omitted
+
+2025-05-24T21:15:19.456Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Starting RabbitmqConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/rabbitmq-consumer.jar started by root in /app)
+2025-05-24T21:15:19.461Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:15:21.193Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:15:21.213Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:15:21.214Z  INFO 1 --- [rabbitmq-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:15:21.278Z  INFO 1 --- [rabbitmq-consumer] [main] o.a.c.c.C.[.[.[/rabbitmq-consumer]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:15:21.280Z  INFO 1 --- [rabbitmq-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1738 ms
+2025-05-24T21:15:22.387Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/rabbitmq-consumer'
+2025-05-24T21:15:22.394Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:22.408Z  INFO 1 --- [rabbitmq-consumer] [main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused
+2025-05-24T21:15:22.418Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:22.420Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1481) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.22.0.jar!/:5.22.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249) ~[amqp-client-5.22.0.jar!/:5.22.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.22.0.jar!/:5.22.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:678) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:647) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593) ~[spring-rabbit-3.2.5.jar!/:3.2.5]
+	... 12 common frames omitted
+
+2025-05-24T21:15:22.435Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:22.466Z  INFO 1 --- [rabbitmq-consumer] [main] u.d.r.RabbitmqConsumerApplication        : Started RabbitmqConsumerApplication in 4.112 seconds (process running for 5.007)
+2025-05-24T21:15:27.441Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:15:27.447Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5809fa26: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:15:27.449Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:27.449Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:15:27.450Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:32.454Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:15:32.458Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@46228b8e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:15:32.463Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:32.466Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:15:32.468Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:37.475Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:15:37.477Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@45c21775: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:15:37.480Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:37.483Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:15:37.484Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:42.489Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:15:42.490Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5359f1de: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:15:42.492Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:42.493Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:15:42.494Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:47.622Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:15:47.623Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3f5163ce: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:15:47.625Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:47.626Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:15:47.626Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:52.631Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:15:52.633Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3d9691e5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:15:52.635Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:52.637Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:15:52.638Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:57.644Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:15:57.645Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-7] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7770fc1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:15:57.647Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:15:57.649Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:15:57.649Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:02.654Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:02.656Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-8] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@12218c1e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:02.659Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:02.661Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:02.663Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:07.668Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:07.671Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-9] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@21e049b3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:07.675Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:07.678Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:07.680Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:12.687Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:12.687Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-10] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6c84ffaa: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:12.689Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:12.690Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:12.690Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:18.820Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:18.821Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-11] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@593ef9d4: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:18.825Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:18.827Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:18.828Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:23.834Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:23.835Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-12] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@33f1ffda: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:23.836Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:23.837Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:23.838Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:28.842Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:28.845Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-13] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@544bd05: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:28.849Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:28.852Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:28.854Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:33.860Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:33.862Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-14] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@452cbe0c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:33.866Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:33.870Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:33.871Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:38.878Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:38.879Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-15] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@12d0dcfb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:38.881Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:38.883Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:38.884Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:43.888Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:43.888Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-16] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@62d12d29: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:43.889Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:43.890Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:43.891Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:51.621Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:51.622Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-17] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@15637a37: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:51.623Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:51.624Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:51.624Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:56.627Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:16:56.628Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-18] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6dc9943d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:16:56.630Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-19] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:16:56.631Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-19] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:16:56.631Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-19] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:01.635Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-19] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:01.636Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-19] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5d385136: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:01.637Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:01.638Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:01.638Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:06.642Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:06.644Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-20] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@142f63d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:06.648Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-21] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:06.651Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-21] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:06.653Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-21] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:11.659Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-21] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:11.660Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-21] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5117b75: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:11.662Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-22] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:11.663Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-22] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:11.664Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-22] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:16.669Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-22] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:16.671Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-22] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@21ce08ff: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:16.675Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-23] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:16.678Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-23] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:16.680Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-23] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:24.213Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-23] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:24.214Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-23] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5e7ea17d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:24.216Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-24] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:24.217Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-24] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:24.218Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-24] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:29.222Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-24] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:29.223Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-24] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5f2cf525: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:29.226Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-25] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:29.228Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-25] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:29.229Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-25] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:34.234Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-25] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:34.236Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-25] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@7d02f401: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:34.238Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-26] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:34.239Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-26] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:34.239Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-26] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:39.244Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-26] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:39.245Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-26] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@60e3374a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:39.246Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-27] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:39.247Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-27] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:39.247Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-27] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:44.252Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-27] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:44.252Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-27] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@64c94deb: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:44.254Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-28] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:44.255Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-28] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:44.255Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-28] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:49.258Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-28] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:49.258Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-28] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2d9e8a64: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:49.259Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-29] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:49.261Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-29] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:49.261Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-29] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:56.992Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-29] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:17:56.993Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-29] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@439a734: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:17:56.995Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-30] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:17:56.996Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-30] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:17:56.996Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-30] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:02.001Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-30] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:02.001Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-30] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@54033e19: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:02.002Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-31] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:02.003Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-31] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:02.003Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-31] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:07.006Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-31] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:07.007Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-31] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3e78e3cf: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:07.008Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-32] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:07.009Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-32] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:07.010Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-32] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:12.013Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-32] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:12.014Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-32] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6449e21f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:12.015Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-33] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:12.015Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-33] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:12.016Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-33] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:17.019Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-33] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:17.020Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-33] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@47b471f6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:17.021Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-34] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:17.022Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-34] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:17.023Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-34] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:22.026Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-34] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:22.027Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-34] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@5f429347: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:22.028Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-35] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:22.029Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-35] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:22.029Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-35] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:29.759Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-35] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:29.761Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-35] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@44d878c5: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:29.764Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-36] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:29.767Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-36] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:29.768Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-36] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:34.773Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-36] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:34.775Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-36] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@3f08489c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:34.776Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-37] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:34.777Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-37] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:34.777Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-37] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:39.780Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-37] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:39.781Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-37] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@b5758d6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:39.783Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-38] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:39.784Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-38] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:39.784Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-38] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:44.789Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-38] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:44.790Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-38] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@365f0169: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:44.794Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-39] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:44.796Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-39] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:44.797Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-39] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:49.802Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-39] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:49.802Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-39] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@1f5452d1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:49.804Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-40] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:49.805Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-40] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:49.806Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-40] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:54.810Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-40] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:18:54.811Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-40] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@55740bd6: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:18:54.813Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-41] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:18:54.815Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-41] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:18:54.815Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-41] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:19:02.545Z  WARN 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-41] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+2025-05-24T21:19:02.546Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-41] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@34618e5e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2025-05-24T21:19:02.548Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-42] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:19:02.548Z ERROR 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-42] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2025-05-24T21:19:02.549Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-42] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-05-24T21:19:04.925Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-43] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-05-24T21:19:04.926Z  INFO 1 --- [rabbitmq-consumer] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-43] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-05-24T21:19:04.928Z  INFO 1 --- [rabbitmq-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:19:04.937Z  INFO 1 --- [rabbitmq-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

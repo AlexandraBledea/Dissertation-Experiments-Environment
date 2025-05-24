@@ -1,0 +1,1209 @@
+2025-05-24T18:30:53.079Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T18:30:53.101Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T18:30:54.203Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T18:30:54.213Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T18:30:54.303Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2025-05-24T18:30:56.605Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T18:30:56.618Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T18:30:56.619Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T18:30:56.654Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T18:30:56.655Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3449 ms
+2025-05-24T18:30:58.558Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T18:30:58.583Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 6.434 seconds (process running for 7.041)
+2025-05-24T18:33:13.757Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T18:33:13.757Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T18:33:13.760Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-24T18:33:13.849Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T18:33:13.889Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T18:33:13.971Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T18:33:14.022Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T18:33:14.024Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T18:33:14.025Z  INFO 1 --- [producer] [http-nio-8050-exec-7] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748111594020
+2025-05-24T18:33:14.346Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: 97xynJ0XRaOpH24hqKLG8A
+2025-05-24T18:33:14.348Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 0 with epoch 0
+2025-05-24T18:33:14.414Z  INFO 1 --- [producer] [http-nio-8050-exec-7] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T18:33:14.419Z  INFO 1 --- [producer] [http-nio-8050-exec-7] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T18:33:14.423Z  INFO 1 --- [producer] [http-nio-8050-exec-7] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T18:33:14.426Z  INFO 1 --- [producer] [http-nio-8050-exec-7] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T18:33:14.430Z  INFO 1 --- [producer] [http-nio-8050-exec-7] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T18:33:14.431Z  INFO 1 --- [producer] [http-nio-8050-exec-7] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 621 ms
+2025-05-24T18:40:33.283Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T18:40:33.287Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T18:40:33.426Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T18:40:33.434Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T18:40:33.435Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T18:40:33.435Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T18:40:33.436Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T18:40:33.437Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T18:59:33.839Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T18:59:33.843Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T18:59:34.753Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T18:59:34.757Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T18:59:34.804Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2025-05-24T18:59:35.378Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T18:59:35.396Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T18:59:35.397Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T18:59:35.430Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T18:59:35.430Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1522 ms
+2025-05-24T18:59:36.870Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T18:59:36.894Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 3.713 seconds (process running for 4.288)
+2025-05-24T19:02:00.273Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T19:02:00.274Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T19:02:00.277Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-24T19:02:00.374Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T19:02:00.415Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T19:02:00.480Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T19:02:00.525Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T19:02:00.528Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T19:02:00.528Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748113320523
+2025-05-24T19:02:00.859Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: 97xynJ0XRaOpH24hqKLG8A
+2025-05-24T19:02:00.860Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 1000 with epoch 0
+2025-05-24T19:02:00.919Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T19:02:00.922Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T19:02:00.925Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T19:02:00.927Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T19:02:00.930Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T19:02:00.930Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 597 ms
+2025-05-24T19:11:05.622Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:11:05.626Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:11:05.756Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T19:11:05.765Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T19:11:05.766Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T19:11:05.766Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T19:11:05.767Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T19:11:05.768Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T19:13:05.157Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T19:13:05.164Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:13:06.939Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:13:06.945Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:13:07.013Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:13:08.285Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T19:13:08.323Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:13:08.330Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:13:08.389Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:13:08.410Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3067 ms
+2025-05-24T19:13:11.542Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T19:13:11.564Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 7.88 seconds (process running for 8.777)
+2025-05-24T19:13:21.314Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T19:13:21.314Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T19:13:21.316Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-24T19:13:21.387Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T19:13:21.422Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T19:13:21.556Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T19:13:21.624Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T19:13:21.627Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T19:13:21.628Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748114001622
+2025-05-24T19:13:22.086Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: xElBfSDETuyKdlj6Zc4e9w
+2025-05-24T19:13:22.087Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 0 with epoch 0
+2025-05-24T19:13:22.187Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T19:13:22.191Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T19:13:22.195Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T19:13:22.198Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T19:13:22.202Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T19:13:22.202Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 841 ms
+2025-05-24T19:23:10.707Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:23:10.717Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:23:10.896Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T19:23:10.908Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T19:23:10.909Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T19:23:10.910Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T19:23:10.910Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T19:23:10.911Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T19:24:22.869Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T19:24:22.873Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:24:24.580Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:24:24.588Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:24:24.664Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:24:25.371Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T19:24:25.393Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:24:25.394Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:24:25.434Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:24:25.435Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2428 ms
+2025-05-24T19:24:29.637Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T19:24:29.656Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 8.078 seconds (process running for 6.251)
+2025-05-24T19:24:45.678Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T19:24:45.679Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T19:24:45.681Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-24T19:24:45.766Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T19:24:45.806Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T19:24:45.913Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T19:24:45.996Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T19:24:45.999Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T19:24:46.001Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748114685993
+2025-05-24T19:24:46.408Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: VSKk54HmQuCeD-2tPLZ00g
+2025-05-24T19:24:46.410Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 0 with epoch 0
+2025-05-24T19:24:46.483Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T19:24:46.488Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T19:24:46.493Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T19:24:46.497Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T19:24:46.500Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T19:24:46.501Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 770 ms
+2025-05-24T19:26:30.832Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:26:30.846Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:26:30.981Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T19:26:30.996Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T19:26:30.997Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T19:26:30.998Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T19:26:30.998Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T19:26:31.000Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T19:27:29.361Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T19:27:29.366Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:27:30.511Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:27:30.517Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:27:30.586Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:27:31.403Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T19:27:31.430Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:27:31.432Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:27:31.494Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:27:31.496Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2036 ms
+2025-05-24T19:27:33.563Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T19:27:33.583Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 5.015 seconds (process running for 5.829)
+2025-05-24T19:28:02.527Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T19:28:02.527Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T19:28:02.529Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-24T19:28:02.616Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T19:28:02.654Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T19:28:02.731Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T19:28:02.784Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T19:28:02.786Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T19:28:02.786Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748114882782
+2025-05-24T19:28:03.073Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: TKOTaAdLQLKou5TQm1Answ
+2025-05-24T19:28:03.075Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 0 with epoch 0
+2025-05-24T19:28:03.131Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T19:28:03.134Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T19:28:03.138Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T19:28:03.140Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T19:28:03.142Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T19:28:03.143Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 561 ms
+2025-05-24T19:34:46.952Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:34:46.963Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:34:47.105Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T19:34:47.114Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T19:34:47.115Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T19:34:47.115Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T19:34:47.116Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T19:34:47.117Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T19:35:58.364Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T19:35:58.369Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:35:59.719Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:35:59.725Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:35:59.795Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:36:01.010Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T19:36:01.043Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:36:01.045Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:36:01.133Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:36:01.135Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2667 ms
+2025-05-24T19:36:03.230Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T19:36:03.251Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 5.874 seconds (process running for 6.85)
+2025-05-24T19:36:03.857Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T19:36:03.858Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T19:36:03.860Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-24T19:36:03.963Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T19:36:04.014Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T19:36:04.113Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T19:36:04.173Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T19:36:04.176Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T19:36:04.176Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748115364171
+2025-05-24T19:36:04.515Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: PFXytpoOQ3GVE5cHMOPJRQ
+2025-05-24T19:36:04.516Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 0 with epoch 0
+2025-05-24T19:36:04.597Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T19:36:04.602Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T19:36:04.607Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T19:36:04.610Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T19:36:04.613Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T19:36:04.614Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 696 ms
+2025-05-24T19:45:59.234Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-producer-1] Node -1 disconnected.
+2025-05-24T19:55:59.281Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-producer-1] Node -1 disconnected.
+2025-05-24T20:02:54.079Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:02:54.091Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:02:54.230Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T20:02:54.243Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T20:02:54.243Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T20:02:54.244Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T20:02:54.245Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T20:02:54.246Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T20:20:54.534Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T20:20:54.540Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:20:55.983Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T20:20:55.989Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T20:20:56.083Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2025-05-24T20:20:57.072Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T20:20:57.094Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:20:57.095Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:20:57.156Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:20:57.158Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2487 ms
+2025-05-24T20:20:59.719Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T20:20:59.740Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 6.287 seconds (process running for 7.071)
+2025-05-24T20:21:18.270Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T20:21:18.271Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T20:21:18.274Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-24T20:21:18.402Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T20:21:18.471Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T20:21:18.650Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T20:21:18.724Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T20:21:18.726Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T20:21:18.727Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748118078721
+2025-05-24T20:21:19.193Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: U5yF0R5xTiC-1tSEvYoRTA
+2025-05-24T20:21:19.196Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 0 with epoch 0
+2025-05-24T20:21:19.303Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T20:21:19.312Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T20:21:19.318Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T20:21:19.324Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T20:21:19.329Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T20:21:19.331Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 986 ms
+2025-05-24T20:23:24.668Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:23:24.673Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:23:24.794Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T20:23:24.802Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T20:23:24.802Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T20:23:24.803Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T20:23:24.803Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T20:23:24.804Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T20:25:09.481Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T20:25:09.486Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:25:10.526Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T20:25:10.532Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T20:25:10.592Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+2025-05-24T20:25:11.299Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T20:25:11.316Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:25:11.317Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:25:11.363Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:25:11.364Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1792 ms
+2025-05-24T20:25:12.957Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T20:25:12.983Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 4.337 seconds (process running for 4.902)
+2025-05-24T20:25:37.711Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T20:25:37.712Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T20:25:37.714Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-24T20:25:37.793Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [kafka:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-05-24T20:25:37.835Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-05-24T20:25:37.913Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Instantiated an idempotent producer.
+2025-05-24T20:25:37.982Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2025-05-24T20:25:37.986Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2025-05-24T20:25:37.987Z  INFO 1 --- [producer] [http-nio-8050-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1748118337980
+2025-05-24T20:25:38.271Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-producer-1] Cluster ID: ubb-n4Z7SGGO6nuSjknk1Q
+2025-05-24T20:25:38.273Z  INFO 1 --- [producer] [kafka-producer-network-thread | producer-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-producer-1] ProducerId set to 0 with epoch 0
+2025-05-24T20:25:38.328Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T20:25:38.331Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T20:25:38.335Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T20:25:38.337Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T20:25:38.340Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T20:25:38.341Z  INFO 1 --- [producer] [http-nio-8050-exec-2] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 579 ms
+2025-05-24T20:25:40.682Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:25:40.685Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:25:40.809Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-05-24T20:25:40.818Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-05-24T20:25:40.818Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-05-24T20:25:40.819Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-05-24T20:25:40.819Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-05-24T20:25:40.820Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-producer-1 unregistered
+2025-05-24T20:56:55.178Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T20:56:55.186Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:56:56.659Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T20:56:56.665Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T20:56:56.748Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+2025-05-24T20:56:57.805Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T20:56:57.827Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:56:57.828Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:56:57.880Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:56:57.881Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2562 ms
+2025-05-24T20:57:00.380Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T20:57:00.402Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 6.294 seconds (process running for 7.058)
+2025-05-24T20:57:08.165Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T20:57:08.167Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T20:57:08.173Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-05-24T20:57:09.098Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T20:57:09.109Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T20:57:09.113Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T20:57:09.119Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T20:57:09.123Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T20:57:09.124Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 841 ms
+2025-05-24T21:00:05.021Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:00:05.026Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:01:06.153Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T21:01:06.157Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:01:07.223Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T21:01:07.228Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T21:01:07.292Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2025-05-24T21:01:08.045Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T21:01:08.059Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:01:08.060Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:01:08.098Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:01:08.099Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1852 ms
+2025-05-24T21:01:09.876Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T21:01:09.895Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 4.642 seconds (process running for 5.252)
+2025-05-24T21:01:17.364Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T21:01:17.365Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T21:01:17.367Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-24T21:01:18.057Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T21:01:18.071Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T21:01:18.076Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T21:01:18.080Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T21:01:18.085Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T21:01:18.086Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 664 ms
+2025-05-24T21:08:21.218Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:08:21.223Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:12:03.248Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T21:12:03.252Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:12:04.349Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T21:12:04.354Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T21:12:04.415Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2025-05-24T21:12:05.258Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T21:12:05.280Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:12:05.281Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:12:05.338Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:12:05.339Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1978 ms
+2025-05-24T21:12:07.178Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T21:12:07.205Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 5.469 seconds (process running for 5.989)
+2025-05-24T21:12:53.275Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T21:12:53.276Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T21:12:53.277Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-24T21:12:53.327Z ERROR 1 --- [producer] [http-nio-8050-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/producer] threw exception [Request processing failed: java.lang.IllegalArgumentException: Unsupported broker: rabbit] with root cause
+
+java.lang.IllegalArgumentException: Unsupported broker: rabbit
+	at ubb.dissertation.producer.controller.ProducerController.send(ProducerController.java:37) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-05-24T21:12:56.149Z  INFO 1 --- [producer] [http-nio-8050-exec-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [rabbitmq:5672]
+2025-05-24T21:12:56.231Z  INFO 1 --- [producer] [http-nio-8050-exec-4] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6975fb1c:0/SimpleConnection@2e48286 [delegate=amqp://guest@172.24.0.2:5672/, localPort=38098]
+2025-05-24T21:12:56.289Z  INFO 1 --- [producer] [http-nio-8050-exec-4] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T21:12:56.294Z  INFO 1 --- [producer] [http-nio-8050-exec-4] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T21:12:56.297Z  INFO 1 --- [producer] [http-nio-8050-exec-4] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T21:12:56.300Z  INFO 1 --- [producer] [http-nio-8050-exec-4] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T21:12:56.303Z  INFO 1 --- [producer] [http-nio-8050-exec-4] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T21:12:56.303Z  INFO 1 --- [producer] [http-nio-8050-exec-4] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 189 ms
+2025-05-24T21:14:18.975Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:14:18.981Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:15:19.294Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Starting ProducerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/producer.jar started by root in /app)
+2025-05-24T21:15:19.300Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:15:20.500Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T21:15:20.507Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T21:15:20.590Z  INFO 1 --- [producer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2025-05-24T21:15:21.519Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8050 (http)
+2025-05-24T21:15:21.542Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:15:21.543Z  INFO 1 --- [producer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:15:21.604Z  INFO 1 --- [producer] [main] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:15:21.605Z  INFO 1 --- [producer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2205 ms
+2025-05-24T21:15:23.258Z  INFO 1 --- [producer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8050 (http) with context path '/producer'
+2025-05-24T21:15:23.277Z  INFO 1 --- [producer] [main] u.d.producer.ProducerApplication         : Started ProducerApplication in 5.082 seconds (process running for 5.905)
+2025-05-24T21:16:38.348Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.a.c.c.C.[.[localhost].[/producer]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-24T21:16:38.348Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-24T21:16:38.350Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-24T21:16:38.472Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [rabbitmq:5672]
+2025-05-24T21:16:38.525Z  INFO 1 --- [producer] [http-nio-8050-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#327e5be5:0/SimpleConnection@1f5a63d [delegate=amqp://guest@172.24.0.4:5672/, localPort=59408]
+2025-05-24T21:16:38.577Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 1 of 5
+2025-05-24T21:16:38.582Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 2 of 5
+2025-05-24T21:16:38.585Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 3 of 5
+2025-05-24T21:16:38.588Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 4 of 5
+2025-05-24T21:16:38.590Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent message 5 of 5
+2025-05-24T21:16:38.591Z  INFO 1 --- [producer] [http-nio-8050-exec-1] u.d.producer.service.ProducerService     : Sent 5 message of 10KB in 181 ms
+2025-05-24T21:19:04.877Z  INFO 1 --- [producer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:19:04.880Z  INFO 1 --- [producer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

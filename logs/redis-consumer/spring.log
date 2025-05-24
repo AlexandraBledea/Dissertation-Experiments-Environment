@@ -1,0 +1,178 @@
+2025-05-24T18:30:38.471Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T18:30:38.490Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T18:30:39.839Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T18:30:39.859Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T18:30:39.951Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2025-05-24T18:30:40.732Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T18:30:41.421Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T18:30:41.422Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T18:30:41.463Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T18:30:41.465Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2835 ms
+2025-05-24T18:30:44.394Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T18:30:44.417Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 7.099 seconds (process running for 7.829)
+2025-05-24T18:40:33.265Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T18:40:33.272Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T18:59:19.001Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T18:59:19.007Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T18:59:20.315Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T18:59:20.322Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T18:59:20.379Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2025-05-24T18:59:23.759Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T18:59:23.781Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T18:59:23.782Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T18:59:23.829Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T18:59:23.829Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4711 ms
+2025-05-24T18:59:25.797Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T18:59:25.816Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 8.113 seconds (process running for 6.616)
+2025-05-24T19:11:05.657Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:11:05.668Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:13:05.014Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T19:13:05.020Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:13:06.773Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:13:06.781Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:13:06.861Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:13:07.721Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:13:07.773Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:13:07.774Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:13:07.850Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:13:07.857Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2646 ms
+2025-05-24T19:13:11.014Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T19:13:11.058Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 7.433 seconds (process running for 8.27)
+2025-05-24T19:23:10.707Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:23:10.722Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:24:08.710Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T19:24:08.715Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:24:09.803Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:24:09.812Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:24:09.885Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:24:10.650Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:24:10.674Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:24:10.675Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:24:10.728Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:24:10.729Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1938 ms
+2025-05-24T19:24:12.499Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T19:24:12.530Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 5.08 seconds (process running for 6.088)
+2025-05-24T19:26:30.815Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:26:30.820Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:27:15.853Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T19:27:15.859Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:27:16.649Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:27:16.654Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:27:16.694Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:27:17.158Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:27:17.173Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:27:17.174Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:27:17.218Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:27:17.220Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
+2025-05-24T19:27:18.557Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T19:27:18.582Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 4.018 seconds (process running for 4.926)
+2025-05-24T19:34:46.964Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T19:34:46.974Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T19:35:42.494Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T19:35:42.498Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T19:35:43.330Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T19:35:43.334Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T19:35:43.372Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2025-05-24T19:35:43.895Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T19:35:43.912Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T19:35:43.913Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T19:35:43.947Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T19:35:43.948Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1373 ms
+2025-05-24T19:35:45.292Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T19:35:45.315Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 4.185 seconds (process running for 5.23)
+2025-05-24T20:02:54.099Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:02:54.107Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:20:43.649Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T20:20:43.661Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:20:46.070Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T20:20:46.076Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T20:20:46.137Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2025-05-24T20:20:46.941Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T20:20:46.968Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:20:46.969Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:20:47.030Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:20:47.031Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2798 ms
+2025-05-24T20:20:50.089Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T20:20:50.118Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 8.617 seconds (process running for 10.073)
+2025-05-24T20:23:24.642Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:23:24.649Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:24:54.490Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T20:24:54.496Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:24:55.693Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T20:24:55.699Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T20:24:55.755Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2025-05-24T20:24:56.394Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T20:24:56.413Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:24:56.415Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:24:56.460Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:24:56.461Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1872 ms
+2025-05-24T20:24:58.424Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T20:24:58.456Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 4.906 seconds (process running for 5.913)
+2025-05-24T20:25:40.682Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T20:25:40.687Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T20:56:42.794Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T20:56:42.804Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T20:56:44.428Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T20:56:44.435Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T20:56:44.518Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2025-05-24T20:56:45.488Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T20:56:45.510Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T20:56:45.511Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T20:56:45.560Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T20:56:45.561Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2615 ms
+2025-05-24T20:56:47.800Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T20:56:49.115Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 7.826 seconds (process running for 9.384)
+2025-05-24T21:00:05.011Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:00:05.016Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:00:50.624Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T21:00:50.633Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:00:51.899Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T21:00:51.905Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T21:00:51.956Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2025-05-24T21:00:52.722Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:00:52.741Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:00:52.743Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:00:52.787Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:00:52.788Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2072 ms
+2025-05-24T21:00:54.660Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T21:00:55.412Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 5.89 seconds (process running for 6.852)
+2025-05-24T21:01:18.188Z  INFO 1 --- [redis-consumer] [container-5] u.d.r.consumer.RedisMessageConsumer      : Redis: Received message 5 of 5, latency: 105 ms
+2025-05-24T21:01:18.193Z  INFO 1 --- [redis-consumer] [container-1] u.d.r.consumer.RedisMessageConsumer      : Redis: Received message 1 of 5, latency: 770 ms
+2025-05-24T21:01:18.191Z  INFO 1 --- [redis-consumer] [container-2] u.d.r.consumer.RedisMessageConsumer      : Redis: Received message 2 of 5, latency: 125 ms
+2025-05-24T21:01:18.192Z  INFO 1 --- [redis-consumer] [container-4] u.d.r.consumer.RedisMessageConsumer      : Redis: Received message 4 of 5, latency: 114 ms
+2025-05-24T21:01:18.192Z  INFO 1 --- [redis-consumer] [container-3] u.d.r.consumer.RedisMessageConsumer      : Redis: Received message 3 of 5, latency: 119 ms
+2025-05-24T21:01:18.201Z  INFO 1 --- [redis-consumer] [container-3] u.d.r.consumer.RedisMessageConsumer      : Redis Batch Complete - Latency: avg ~246.6ms, Throughput: 1250.0msg/sec
+2025-05-24T21:01:18.201Z  INFO 1 --- [redis-consumer] [container-4] u.d.r.consumer.RedisMessageConsumer      : Redis Batch Complete - Latency: avg ~246.6ms, Throughput: 1250.0msg/sec
+2025-05-24T21:01:18.201Z  INFO 1 --- [redis-consumer] [container-1] u.d.r.consumer.RedisMessageConsumer      : Redis Batch Complete - Latency: avg ~246.6ms, Throughput: 1000.0msg/sec
+2025-05-24T21:01:18.201Z  INFO 1 --- [redis-consumer] [container-5] u.d.r.consumer.RedisMessageConsumer      : Redis Batch Complete - Latency: avg ~246.6ms, Throughput: Infinitymsg/sec
+2025-05-24T21:01:18.201Z  INFO 1 --- [redis-consumer] [container-2] u.d.r.consumer.RedisMessageConsumer      : Redis Batch Complete - Latency: avg ~246.6ms, Throughput: 1666.6666666666667msg/sec
+2025-05-24T21:08:21.239Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:08:21.251Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:11:48.155Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T21:11:48.160Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:11:49.303Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T21:11:49.309Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T21:11:49.362Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2025-05-24T21:11:50.105Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:11:50.127Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:11:50.128Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:11:50.172Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:11:50.173Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1909 ms
+2025-05-24T21:11:51.952Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T21:11:53.003Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 6.172 seconds (process running for 8.028)
+2025-05-24T21:14:18.985Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:14:18.991Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T21:15:02.297Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Starting RedisConsumerApplication v0.0.1-SNAPSHOT using Java 17.0.15 with PID 1 (/app/redis-consumer.jar started by root in /app)
+2025-05-24T21:15:02.303Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-05-24T21:15:03.077Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-05-24T21:15:03.081Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-24T21:15:03.120Z  INFO 1 --- [redis-consumer] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2025-05-24T21:15:03.637Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8030 (http)
+2025-05-24T21:15:03.654Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T21:15:03.654Z  INFO 1 --- [redis-consumer] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-24T21:15:03.698Z  INFO 1 --- [redis-consumer] [main] o.a.c.c.C.[.[.[/redis-consumer]          : Initializing Spring embedded WebApplicationContext
+2025-05-24T21:15:03.699Z  INFO 1 --- [redis-consumer] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
+2025-05-24T21:15:04.965Z  INFO 1 --- [redis-consumer] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8030 (http) with context path '/redis-consumer'
+2025-05-24T21:15:05.659Z  INFO 1 --- [redis-consumer] [main] u.d.r.RedisConsumerApplication           : Started RedisConsumerApplication in 4.663 seconds (process running for 5.513)
+2025-05-24T21:19:04.893Z  INFO 1 --- [redis-consumer] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T21:19:04.899Z  INFO 1 --- [redis-consumer] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

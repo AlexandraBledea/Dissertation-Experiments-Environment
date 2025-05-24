@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: kafka-consumer
+  kafka:
+    bootstrap-servers: ${KAFKA_SERVER}:${KAFKA_PORT}
+    consumer:
+      group-id: experiment-group
+
+kafka-topic: experiment-message
+
+server:
+  port: ${APPLICATION_PORT:8020}
+  servlet:
+    context-path: "/kafka-consumer"
+
+logging:
+  file:
+    path: /var/log/kafka-consumer
