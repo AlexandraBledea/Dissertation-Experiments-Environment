@@ -1,7 +1,0 @@
-ubb.dissertation.redis_consumer.consumer.RedisMessageConsumer.<init>,1.0219
-ubb.dissertation.redis_consumer.consumer.RedisMessageConsumer.onMessage,0.0000
-ubb.dissertation.redis_consumer.config.RedisConfig$$SpringCGLIB$$0.CGLIB$STATICHOOK1,0.0353
-ubb.dissertation.redis_consumer.consumer.RedisMessageConsumer$$Lambda/0x000001c9104c2130.run,0.0965
-ubb.dissertation.redis_consumer.RedisConsumerApplication.main,5.2510
-ubb.dissertation.redis_consumer.config.RedisConfig.redisTemplate,0.2168
-ubb.dissertation.redis_consumer.config.RedisConfig.redisConnectionFactory,0.0619

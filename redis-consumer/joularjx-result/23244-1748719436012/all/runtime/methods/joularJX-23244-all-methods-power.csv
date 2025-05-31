@@ -1,9 +1,0 @@
-sun.nio.ch.Net.accept,0.0000
-sun.nio.ch.WEPoll.wait,0.0000
-sun.nio.ch.WEPoll.wait,0.0000
-sun.nio.ch.SocketDispatcher.read0,0.0000
-java.lang.ref.Reference.waitForReferencePendingList,0.0000
-sun.nio.ch.WEPoll.wait,0.0000
-com.sun.management.internal.OperatingSystemImpl.getProcessCpuLoad0,0.0114
-sun.nio.ch.Net.poll,0.5586
-sun.nio.ch.Net.accept,0.0000
