@@ -21,8 +21,6 @@ public class KafkaMessageConsumer {
     private final OshiLogger oshiLogger;
     private final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
 
-    private final AtomicInteger received = new AtomicInteger(0);
-
     public KafkaMessageConsumer() throws IOException {
         this.oshiLogger = new OshiLogger("results.csv");
         scheduler.scheduleAtFixedRate(oshiLogger::log, 0, 1, TimeUnit.SECONDS);
@@ -38,10 +36,8 @@ public class KafkaMessageConsumer {
             long latency = now - message.getTimestamp();
             oshiLogger.recordMessage(latency);
 
-            int current = received.incrementAndGet();
-
-            log.info("Kafka: Received message {} of {}, latency: {} ms, received {}",
-                    message.getMessageNumber(), message.getNumberOfMessages(), latency, current);
+            log.info("Kafka: Received message {} of {}, latency: {} ms",
+                    message.getMessageNumber(), message.getNumberOfMessages(), latency);
         }
         ack.acknowledge();
     }
