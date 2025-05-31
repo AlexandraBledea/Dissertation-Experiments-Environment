@@ -8,8 +8,6 @@ spring:
       group-id: experiment-group
     producer:
       retries: 5
-      properties:
-        retry.backoff.ms: 1000
 
   rabbitmq:
     host: ${RABBIT_HOST}
@@ -24,6 +22,15 @@ redis-channel: experiment-message
 
 kafka-topic: experiment-message
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      access: unrestricted
+
 rabbit:
   exchange: notification_exchange
   routing-key: experiment_notification_key
@@ -37,3 +44,5 @@ server:
 logging:
   file:
     path: /var/log/producer
+  level:
+    org.apache.kafka.clients.producer: OFF

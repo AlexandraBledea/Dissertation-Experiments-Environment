@@ -1,13 +1,11 @@
 package ubb.dissertation.producer.client;
 
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import ubb.dissertation.common.Message;
 
 @Component
-@Slf4j
 public class RabbitClient implements MessageBrokerClient {
 
     private final RabbitTemplate rabbitTemplate;
