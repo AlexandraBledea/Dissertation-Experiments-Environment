@@ -1,49 +1,49 @@
 package ubb.dissertation.kafka_consumer.consumer;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.kafka.support.Acknowledgment;
 import org.springframework.stereotype.Component;
 import ubb.dissertation.common.Message;
+import ubb.dissertation.common.OshiLogger;
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.List;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Component
-@Slf4j
 public class KafkaMessageConsumer {
 
-    private int received = 0;
-    private long start = 0;
-    private final List<Long> latencies = new ArrayList<>();
+    private static final Logger log = LoggerFactory.getLogger(KafkaMessageConsumer.class);
 
+    private final OshiLogger oshiLogger;
+    private final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
+
+    private final AtomicInteger received = new AtomicInteger(0);
+
+    public KafkaMessageConsumer() throws IOException {
+        this.oshiLogger = new OshiLogger("results.csv");
+        scheduler.scheduleAtFixedRate(oshiLogger::log, 0, 1, TimeUnit.SECONDS);
+    }
 
     @KafkaListener(topics = "${kafka-topic}")
-    public void consume(Message message) throws JsonProcessingException {
+    public void consume(List<Message> messages, Acknowledgment ack) {
         long now = System.currentTimeMillis();
-        long latency = System.currentTimeMillis() - message.getTimestamp();
-        latencies.add(latency);
 
-        if (received == 0) {
-            start = now;
+        if (messages.isEmpty()) return;
+
+        for (Message message : messages) {
+            long latency = now - message.getTimestamp();
+            oshiLogger.recordMessage(latency);
+
+            int current = received.incrementAndGet();
+
+            log.info("Kafka: Received message {} of {}, latency: {} ms, received {}",
+                    message.getMessageNumber(), message.getNumberOfMessages(), latency, current);
         }
-
-        received++;
-        log.info("Kafka: Received message {} of {}, latency: {} ms", message.getMessageNumber(), message.getNumberOfMessages(), latency);
-
-        //when done, print summary
-        if (received == message.getNumberOfMessages()) {
-            long duration = now - start;
-            double throughput = (double) received / (duration / 1000.0);
-            double avgLatency = latencies.stream().mapToLong(Long::longValue).average().orElse(0);
-
-            log.info("Kafka Batch Complete - Latency: avg ~{}ms, Throughput: {}msg/sec",
-                    avgLatency, throughput);
-
-            //Reset for next batch
-            received = 0;
-            latencies.clear();
-        }
-
+        ack.acknowledge();
     }
+
 }
