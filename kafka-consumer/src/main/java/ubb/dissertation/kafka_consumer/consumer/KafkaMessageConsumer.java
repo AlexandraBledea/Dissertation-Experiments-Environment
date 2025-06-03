@@ -11,7 +11,6 @@ import ubb.dissertation.common.OshiLogger;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicInteger;
 
 @Component
 public class KafkaMessageConsumer {
